@@ -1,0 +1,59 @@
+<html lang="de" xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/xhtml"
+xmlns:c="http://java.sun.com/xml/ns/javaee" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            ArabDictionary
+        </title>
+    </head>
+    <body>
+        <header >
+        <center><h3> <b>WillKommen zum Arabic-Deutsch Wörtebuch </b></h3></center> </header>
+        <p>
+            <form  th:action="@{/adding}" modelAttribute="database" action="#"  method="POST" >
+                <table >
+                    <tr>
+                        <td>
+                            <label for="theTranslateToArabic"> Arabic   Wört </label>
+                        </td>
+                        <td>
+                            <input  id="theTranslateToArabic" type="text" name="theTranslateToArabic" size="20" path="theTranslateToArabic" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="theWorldInGerman"> Deutsch Wört </label>
+                        </td>
+                        <td>
+                            <input  id="theWorldInGerman" type="text" name="theWorldInGerman" size="20" path="theWorldInGerman" />
+
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    
+                    <tr>
+                       
+                       <tr>
+
+                       </tr>
+                       <tr>
+
+                       </tr>
+                      <td>
+
+                        </td>
+                        <td align="right">
+<!--                            <button >إضافة </button>-->
+                            <input class="button" type="submit" value="إضافة" />
+
+                        </td>
+                    </tr>
+                </table>
+
+
+
+            </form>
+    </body>
+</html>

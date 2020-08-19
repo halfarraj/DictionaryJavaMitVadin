@@ -1,0 +1,5 @@
+com/dictionary/dictionary/LoadDatabase.class
+com/dictionary/dictionary/DicRepository.class
+com/dictionary/dictionary/Database.class
+com/dictionary/dictionary/MyDictionaryController.class
+com/dictionary/dictionary/DictionaryApplication.class
